@@ -1,0 +1,121 @@
+KBaseFBAModeling
+Flux balance modeling service. Deploys both the client and service
+codes.
+
+
+assembly
+An extensible framework for genome assembly.
+
+
+auth
+authentication services for kbase
+
+
+awe_service
+The awe_service repository provides KBase release engineering tools
+for the deployment of the AWE client and server. The AWE repository
+is included as a submodule in the awe_service repository and is
+maintained at http://github.com/MG-RAST/AWE.
+
+
+genome_annotation
+The genome annotation service provides automated gene annotation
+based on the RAST system. This deploys both client and service
+components.
+
+
+handle_service
+An application programming interface for managing files. This service
+provides an AbstractHandle that can be used to reference data in
+different stores. This deploys both the client and service.
+
+
+idserver
+The KBase ID service provides access to the mappings between KBase
+identifiers and external identifiers (the original identifiers for
+data that was migrated from other databases into KBase). This deploys
+both the client and service.
+
+
+invocation
+The invocation service provides remote invocation of commands. A
+java script browser client for interactive remote invocation (IRIS)
+is included. This deploys  the client, service and javascript web
+application.
+
+
+jars
+
+
+kb_seed
+The kb_seed module contains an import of a large body of code from
+the SEED project. These imports are performed on a periodic basis
+as new features developed on the SEED side are required in the KBase
+codebase. This deploys both client and service libraries.
+
+
+kbapi_common
+
+
+kmer_annotation_figfam
+
+
+shock_service
+Enables deployment of shock server and clients within the kbase
+release environment
+
+
+simple_fba
+Simple wrappers around fba tools.
+
+
+strep_repeats
+Detects Streptococcus repeats in genome sequences.
+
+
+typecomp
+The KBase Type Compiler consumes a type-document and produces a
+server and implementation libraries in one languages and client
+libraries in multiple supported languages.
+
+
+user_and_job_state
+
+
+workspace_deluxe
+The Workspace Service (WSS) is primarily a language independent
+remote storage and retrieval system for KBase typed objects (TO)
+defined with the KBase Interface Description Language (KIDL).
+
+
+workspace_service
+This is the repository for managing the workspace service. The
+workspace represents a scientific team's data as a collection of
+objects with a standard set of permissions over all objects within
+a workspace. The workspace also implements revert and restore
+functionality on each object in a workspace.
+
+
+dev_container
+This repository is a container for developing and deploying KBase
+modules. To use this, you must already have a "runtime" directory,
+which contains the neccesary binaries and libraries. For an idea
+of what is expected to be in this runtime, consult the [bootstrap
+repository](https://git.kbase.us/bootstrap.git/).
+
+
+kb_model_seed
+This repository contains wrapper code to integrate the ModelSEED
+Perl libraries into KBase.
+
+
+probabilistic_annotation
+
+
+handle_mngr
+Provides user access capabilities to handles.
+
+
+auth_service
+
+
