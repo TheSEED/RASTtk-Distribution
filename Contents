@@ -11,13 +11,6 @@ auth
 authentication services for kbase
 
 
-awe_service
-The awe_service repository provides KBase release engineering tools
-for the deployment of the AWE client and server. The AWE repository
-is included as a submodule in the awe_service repository and is
-maintained at http://github.com/MG-RAST/AWE.
-
-
 genome_annotation
 The genome annotation service provides automated gene annotation
 based on the RAST system. This deploys both client and service
@@ -58,11 +51,6 @@ kbapi_common
 
 
 kmer_annotation_figfam
-
-
-shock_service
-Enables deployment of shock server and clients within the kbase
-release environment
 
 
 simple_fba
@@ -110,6 +98,11 @@ Perl libraries into KBase.
 
 
 probabilistic_annotation
+
+
+shock_service
+Enables deployment of shock server and clients within the kbase
+release environment
 
 
 handle_mngr
