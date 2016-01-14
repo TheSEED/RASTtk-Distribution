@@ -1,5 +1,6 @@
 KBaseFBAModeling
-Flux balance modeling service. Deploys both the client and service codes.
+Flux balance modeling service. Deploys both the client and service
+codes.
 
 
 assembly
@@ -11,21 +12,22 @@ authentication services for kbase
 
 
 genome_annotation
-The genome annotation service provides automated gene annotation based
-on the RAST system. This deploys both client and service components.
+The genome annotation service provides automated gene annotation
+based on the RAST system. This deploys both client and service
+components.
 
 
 handle_service
 An application programming interface for managing files. This service
-provides an AbstractHandle that can be used to reference data in different
-stores. This deploys both the client and service.
+provides an AbstractHandle that can be used to reference data in
+different stores. This deploys both the client and service.
 
 
 idserver
 The KBase ID service provides access to the mappings between KBase
-identifiers and external identifiers (the original identifiers for data
-that was migrated from other databases into KBase). This deploys both
-the client and service.
+identifiers and external identifiers (the original identifiers for
+data that was migrated from other databases into KBase). This deploys
+both the client and service.
 
 
 invocation
@@ -36,6 +38,7 @@ application.
 
 
 jars
+This contains common Java jar files needed across KBase
 
 
 kb_seed
@@ -60,45 +63,35 @@ Detects Streptococcus repeats in genome sequences.
 
 
 typecomp
-The KBase Type Compiler consumes a type-document and produces a server
-and implementation libraries in one languages and client libraries in
-multiple supported languages.
+The KBase Type Compiler consumes a type-document and produces a
+server and implementation libraries in one languages and client
+libraries in multiple supported languages.
 
 
 user_and_job_state
 
 
 workspace_deluxe
-The Workspace Service (WSS) is primarily a language independent remote
-storage and retrieval system for KBase typed objects (TO) defined with
-the KBase Interface Description Language (KIDL).
+The Workspace Service (WSS) is primarily a language independent
+remote storage and retrieval system for KBase typed objects (TO)
+defined with the KBase Interface Description Language (KIDL).
 
 
 dev_container
-This repository is a container for developing and deploying KBase
-modules. To use this, you must already have a "runtime" directory,
-which contains the neccesary binaries and libraries. For an idea
-of what is expected to be in this runtime, consult the [bootstrap
-repository](https://git.kbase.us/bootstrap.git/).
+build and deployment environment
 
 
 kb_model_seed
-This repository contains wrapper code to integrate the ModelSEED Perl
-libraries into KBase.
-
-
-probabilistic_annotation
+This repository contains wrapper code to integrate the ModelSEED
+Perl libraries into KBase.
 
 
 shock_service
-Enables deployment of shock server and clients within the kbase release
-environment
+Enables deployment of shock server and clients within the kbase
+release environment
 
 
 handle_mngr
 Provides user access capabilities to handles.
-
-
-auth_service
 
 
